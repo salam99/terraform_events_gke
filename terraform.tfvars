@@ -9,7 +9,7 @@ internal_image_name = "internal:devops.1"
 # container_registry/project_id/external_image_name
 
 gcp_region_1 = "us-central1"
-gcp_zone_1   = "us-central1-a"
+gcp_zone_1   = "us-central1-c"
 
 # Application Name (used in resource names, no spaces.)
 app_name = "events-tf"
