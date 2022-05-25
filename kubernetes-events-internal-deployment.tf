@@ -8,7 +8,7 @@ resource "kubernetes_deployment" "events-internal-deployment" {
   }
 
   spec {
-    replicas                  = 2
+    replicas                  = 1
     progress_deadline_seconds = 60
     selector {
       match_labels = {
